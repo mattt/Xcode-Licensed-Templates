@@ -24,6 +24,11 @@ Select from your favorite open source licenses to be embedded in the header:
 - Select the "Licensed" category, then select the "Licensed Objective-C Class" template, and hit "Next".
 - Enter the name of your class and select the desired license.
 
+![Step 1](https://raw.github.com/mattt/Xcode-Licensed-Templates/screenshots/xcode-template-step-1.png)
+
+![Step 2](https://raw.github.com/mattt/Xcode-Licensed-Templates/screenshots/xcode-template-step-2.png)
+
+
 ## Contact
 
 Mattt Thompson

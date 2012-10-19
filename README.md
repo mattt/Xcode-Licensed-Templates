@@ -39,4 +39,4 @@ Mattt Thompson
 
 ## License
 
-FormatterKit is available under the MIT license. See the LICENSE file for more info.
+Xcode Licensed Templates is available under the MIT license. See the LICENSE file for more info.

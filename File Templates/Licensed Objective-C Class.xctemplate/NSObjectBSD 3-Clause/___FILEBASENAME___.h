@@ -25,8 +25,8 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
 // POSSIBILITY OF SUCH DAMAGE.
 
-#import <Foundation/Foundation.h>
+___IMPORTHEADER_licensedSubclass___
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
+@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_licensedSubclass___
 
 @end

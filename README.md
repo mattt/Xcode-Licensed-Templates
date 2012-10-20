@@ -12,6 +12,7 @@ Select from your favorite open source licenses to be embedded in the header:
 - [MIT](http://opensource.org/licenses/mit-license)
 - [Apache 2.0](http://opensource.org/licenses/Apache-2.0)
 - [BSD 3-Clause](http://opensource.org/licenses/BSD-3-Clause)
+- [The GNU Lesser General Public License, version 2.1 (LGPL-2.1)](http://opensource.org/licenses/LGPL-2.1)
 - [Zlib](http://opensource.org/licenses/Zlib)
 
 > Is your license of choice missing? Feel free to send a pull request!

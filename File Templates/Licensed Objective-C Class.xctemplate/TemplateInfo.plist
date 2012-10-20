@@ -1,66 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-        <key>AllowedTypes</key>
-        <array>
-            <string>public.objective-c-source</string>
-            <string>public.objective-c-plus-plus-source</string>
-        </array>
-        <key>DefaultCompletionName</key>
-        <string>Licensed Objective-C Class</string>
-        <key>Description</key>
-        <string>Creates a new Objective-C class with an embedded software license.</string>
-        <key>Kind</key>
-        <string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
-        <key>MainTemplateFile</key>
-        <string>___FILEBASENAME___.m</string>
-        <key>Options</key>
-        <array>
-            <dict>
-                <key>Identifier</key>
-                <string>productName</string>
-                <key>Description</key>
-                <string>The name of the class to create</string>
-                <key>Name</key>
-                <string>Class Name</string>
-                <key>NotPersisted</key>
-                <true/>
-                <key>Required</key>
-                <true/>
-                <key>Type</key>
-                <string>text</string>
-            </dict>
-            <dict>
-                <key>Identifier</key>
-                <string>license</string>
-                <key>Name</key>
-                <string>License</string>
-                <key>Description</key>
-                <string>The license to embed into the source file.</string>
-                <key>Type</key>
-                <string>popup</string>
-                <key>Default</key>
-                <string>MIT</string>
-                <key>Values</key>
-                <array>
-                    <string>Apache 2.0</string>
-                    <string>BSD 3-Clause</string>
-                    <string>MIT</string>
-                    <string>Zlib</string>
-                </array>
-                <key>NotPersisted</key>
-                <false/>
-            </dict>
-        </array>
-        <key>Platforms</key>
-        <array>
-            <string>com.apple.platform.iphoneos</string>
-            <string>com.apple.platform.macosx</string>
-        </array>
-        <key>SortOrder</key>
-        <string>1</string>
-        <key>Summary</key>
-        <string>An Objective-C class with an embedded software license.</string>
-    </dict>
+<dict>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.objective-c-source</string>
+		<string>public.objective-c-plus-plus-source</string>
+	</array>
+	<key>DefaultCompletionName</key>
+	<string>Licensed Objective-C Class</string>
+	<key>Description</key>
+	<string>Creates a new Objective-C class with an embedded software license.</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.m</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Name</key>
+			<string>Class Name</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>NSObject</string>
+			<key>Description</key>
+			<string>What class to subclass in the new file</string>
+			<key>Identifier</key>
+			<string>licensedSubclass</string>
+			<key>Name</key>
+			<string>Subclass of</string>
+			<key>Required</key>
+			<string>YES</string>
+			<key>Type</key>
+			<string>class</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>license</string>
+			<key>Name</key>
+			<string>License</string>
+			<key>Description</key>
+			<string>The license to embed into the source file.</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>MIT</string>
+			<key>Values</key>
+			<array>
+				<string>Apache 2.0</string>
+				<string>BSD 3-Clause</string>
+				<string>MIT</string>
+				<string>Zlib</string>
+			</array>
+			<key>NotPersisted</key>
+			<false/>
+		</dict>
+	</array>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+		<string>com.apple.platform.macosx</string>
+	</array>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Summary</key>
+	<string>An Objective-C class with an embedded software license.</string>
+</dict>
 </plist>

@@ -20,8 +20,8 @@
 //
 // 3. This notice may not be removed or altered from any source distribution.
 
-#import <Foundation/Foundation.h>
+___IMPORTHEADER_licensedSubclass___
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
+@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_licensedSubclass___
 
 @end

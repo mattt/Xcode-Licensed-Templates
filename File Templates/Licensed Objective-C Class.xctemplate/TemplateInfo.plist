@@ -46,6 +46,7 @@
                 <array>
                     <string>Apache 2.0</string>
                     <string>BSD 3-Clause</string>
+                    <string>GPL-2.0</string>
                     <string>MIT</string>
                     <string>Zlib</string>
                 </array>

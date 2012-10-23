@@ -20,8 +20,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <Foundation/Foundation.h>
+___IMPORTHEADER_licensedSubclass___
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
+@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_licensedSubclass___
 
 @end

@@ -14,8 +14,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#import <Foundation/Foundation.h>
+___IMPORTHEADER_licensedSubclass___
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : NSObject
+@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_licensedSubclass___
 
 @end

@@ -13,6 +13,7 @@ Select from your favorite open source licenses to be embedded in the header:
 - [Apache 2.0](http://opensource.org/licenses/Apache-2.0)
 - [BSD 3-Clause](http://opensource.org/licenses/BSD-3-Clause)
 - [Zlib](http://opensource.org/licenses/Zlib)
+- [The Unlicense](http://unlicense.org/)
 
 > Is your license of choice missing? Feel free to send a pull request!
 

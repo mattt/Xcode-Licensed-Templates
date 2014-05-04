@@ -60,6 +60,7 @@
 			<array>
 				<string>Apache 2.0</string>
 				<string>BSD 3-Clause</string>
+				<string>GPL v3</string>
 				<string>MIT</string>
 				<string>Unlicense</string>
 				<string>Zlib</string>

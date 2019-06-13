@@ -20,6 +20,8 @@ Select from your favorite open source licenses to be embedded in the header:
 ## Installation & Usage
 
 - Create a new directory in `/Library/Developer/Xcode/Templates/Application/File Templates` called `Licensed`.
+  As for Xcode 4.x & 5.x directory is: `~/Library/Developer/Xcode/Templates/File\ Templates`
+  As for Xcode 6.x & newer directory is: `/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/File\ Templates`
 - Copy the contents of the "File Templates" directory of this repository into `Licensed`. 
 - Relaunch Xcode and select "File > New File", or use the `⌘N` keyboard shortcut.
 - Select the "Licensed" category, then select the "Licensed Objective-C Class" template, and hit "Next".
